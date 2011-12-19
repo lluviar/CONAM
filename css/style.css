@@ -122,6 +122,14 @@ a{
 		letter-spacing: -3px;
 		padding: 35px 0 35px 55px;  
 		} 
+	#wtitle h1{
+		font-family: DIN;
+		font-size: 33px;
+		font-style: italic;
+		color: #FFF;
+		letter-spacing: -3px;
+		padding: 35px 0 35px 55px;  
+		} 
 #main{
 	
 	padding-top: 30px; 
@@ -169,6 +177,7 @@ a{
 		float: right;
 		padding: 10px 40px 10px 40px;
 		border-left: 2px solid #828282;
+		margin-bottom: 30px;
 		}
 		#content p{
 			font-family: Helvetica;
@@ -176,13 +185,16 @@ a{
 			color: #999;
 			line-height: 1.2em;
 			margin-bottom: 15px;
-			}
-			
+			}	
+		#content ul li{
+				font-family: Helvetica;
+				font-size: 16px;
+				color: #999;
+				line-height: 1.2em;
+				}	
 #footer{
 	clear: both;
 	height: 100px;
-	padding-top: 30px;  
-	margin-top: 30px;
 	border-top: 5px solid #828282; 
 	/*gradiente*/
 	background: #333132; /* Old browsers */
@@ -194,7 +206,9 @@ a{
 	background: linear-gradient(top,  #333132 0%,#262324 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333132', endColorstr='#262324',GradientType=0 ); /* IE6-9 */
 	}
-
+	#wfooter{
+	margin-top: 30px;
+	}
 	#footer ul{
 		float: left;
 		}

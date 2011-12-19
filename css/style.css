@@ -1,0 +1,44 @@
+/*   
+Site Name: CSS-Tricks (v8m)
+Theme URI: http://css-tricks.com
+Description: 8th major iteration
+Author: Chris Coyier
+Author URI: http://chriscoyier.net
+Version: 8
+Tags:
+*/
+/* Reset */
+html, body, div, span, object, h1, h2,
+h3, h4, h5, h6, p, blockquote, pre, 
+a, adress, code, img, small, strong,
+d1, dt, dd, ol, ul, li.
+fieldset, form, label {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+		font-size: 100%;
+		vertical-align: baseline;
+		background: transparent;
+}
+
+body {
+ line-height: 1.5;
+ font-family: Helvetica, arial, sans-serif;
+}
+
+ol,ul {
+ list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+p{
+	font-family: Helvetica;
+	font-size: 16px;
+	color: #999999;
+}
+
+/* End Reset */
